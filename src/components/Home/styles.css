@@ -1,0 +1,49 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeImg {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  width: 235px;
+}
+
+.homeTitle {
+  font-size: 1.5rem;
+}
+
+.homeDescription {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.homeButtons {
+  margin-top: 1.75rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button i {
+  font-size: 1.25rem;
+}
+
+.change-theme {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+}

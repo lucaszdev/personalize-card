@@ -1,0 +1,33 @@
+.advertising {
+  text-align: center;
+}
+
+.advertisingBg {
+  background-color: rgba(181, 43, 13, 0.8);
+  padding: 2.25rem 0 2.25rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+.advertisingData h1 {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.advertisingData h1,
+.advertisingData p {
+  color: #fff;
+}
+
+.advertisingDescription {
+  margin-bottom: 2rem;
+}
+
+.advertisingDescription p {
+  font-size: var(--small-font-size);
+}
+
+.advertisingButton {
+  font-weight: 500;
+  padding: 1rem 0.75rem;
+}

@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+}
+
+.footerBg {
+  background-color: var(--second-color);
+  padding: 2rem 0 5.5rem;
+  box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.35);
+}
+
+.footerTitle {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.footerDescription {
+  color: #fff;
+  font-size: 0.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.footerButton {
+  padding: 1rem 0.75rem;
+}
+
+.buttonFooterToHome {
+  position: absolute;
+  padding: 0.5rem;
+  right: 2rem;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonFooterToHome i {
+  font-size: 1.25rem;
+}
